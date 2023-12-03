@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'DM Serif Display', serif;
+    text-decoration: none;
+}
+.navbar{
+    background-color: white;
+    padding: 10px;
+}
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 10vw;
+}
+
+.list1{
+    list-style: none;
+    display: inline-block;
+    margin-right: 4vw;
+}
+.list1 a{
+    color: gray;
+    font-size: 14px;
+}
+.btn{
+    margin-right: 10vw ;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:  white;
+    color: black;
+    cursor: pointer;   
+}
+.list1 a:hover{
+    color: black;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color:hsl(256, 26%, 20%);
+    color: rgb(255, 255, 255);
+    transition: 0.5s ease;
+}
+
+.box1{
+    display: flex;
+    justify-content: flex-end;
+    
+    width: 100vw;
+    height: 50vh;
+    background-color: hsl(256, 26%, 20%);
+}
+.img1{
+    position: absolute;
+    right: 7vw;
+    top: 15vh;   
+}
+.img2{
+    position: absolute;
+    width: 16vw;
+}
+.title1{
+    position: absolute;
+    bottom: 75vh;
+    margin-left: 10vw;
+    color: white;
+    font-size: 60px;
+    font-weight: normal;
+    
+}
+.title2{
+    position: absolute;
+    bottom: 65vh;
+    margin-left: 10vw;
+    color: white;
+    font-size: 60px;
+    font-weight: normal;
+}
+.Get_your{
+    position: absolute;
+    bottom: 55vh;
+    margin-left: 10vw;
+    color: white;
+    font-weight: normal;
+}
+.btn2{
+    position: absolute;
+    margin-top: -10vh;
+    margin-left: 10vw;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:  transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 1.5px solid rgb(255, 255, 255);
+}
+.btn2:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s ease;
+}
+
+.img3{
+    position: absolute;
+    bottom: 16vh;
+    width: 9vw;
+}
+.box2{
+    width: 100vw;
+    height: 190vh;
+    background-color: rgb(255, 255, 255);
+}
+.title3{
+    position: absolute;
+    bottom: -10vh;
+    margin-left: 10vw;
+    color:hsl(270, 9%, 17%);
+    font-size: 60px;
+    font-weight: normal;
+}
+.img4{
+    margin-left: 10vw;
+    position: absolute;
+    bottom: -30vh;
+}
+.Snappy_Process{
+    margin-left: 10vw;
+    position: absolute;
+    bottom: -40vh;
+}
+.snappy_disc{
+    position: absolute;
+    top: 140vh;
+    left: 10vw;
+    color: gray;
+}
+.affordable_prices{
+    margin-left: 40vw;
+    position: absolute;
+    bottom: -30vh;
+}
+.affordable_prices_title{
+    margin-left: 40vw;
+    position: absolute;
+    top: 133vh;
+}
+.affordable_disc{
+    color: gray;
+    margin-left: 40vw;
+    position: absolute;
+    top: 140vh;
+}
+.people_first{
+    margin-left: 70vw;
+    position: absolute;
+    bottom: -30vh;
+}
+.people_first_title{
+    margin-left: 70vw;
+    position: absolute;
+    top: 133vh;
+}
+.people_first_disc{
+    color: gray;
+    margin-left: 70vw;
+    position: absolute;
+    top: 140vh;
+}
+
+.box3{
+    width: 60vw;
+    height: 30vh;
+    background-color:hsl(256, 26%, 20%) ;
+    position: absolute;
+    top: 200%; /* Place the top of the box at the vertical center */
+    left: 50%; /* Place the left side of the box at the horizontal center */
+    transform: translate(-50%, -50%);
+    
+}
+.img5{
+    width: 25vw;
+    position: absolute;
+    left: 58%;
+    overflow: hidden;
+}
+.btn3{
+    position: absolute;
+    left: 75%;
+    top: 45%;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:  transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+}
+.btn3:hover{
+    
+    color: black;
+    background-color: white;
+    transition: 0.5s ease;
+    font-weight: bold;
+}
+
+.find_out{
+    color: white;
+    font-weight: normal;
+    position: absolute;
+    top: 8vh;
+    left: 6vw;
+    font-size: 40px;
+}
+
+footer{
+    width: 100vw;
+    height: 50vh;
+    background-color: hsl(0, 0%, 98%);
+    
+}
+.footer_image{
+    position: absolute;
+}
+.footer_logo{
+    position: absolute;
+    margin-left: 9vw;
+    margin-top:8vh ; 
+    cursor: pointer;   
+}
+.footer_facebook{
+    margin-top:8vh ;
+    position: absolute;
+    left: 80vw;
+    cursor: pointer;
+}
+.footer_facebook:hover{
+    
+    padding-top: 2px;
+    transition: 0.2s ease;
+}
+.footer_twitter{
+    margin-top:8.6vh ;
+    position: absolute;
+    left: 83vw;
+    cursor: pointer;
+}
+.footer_twitter:hover{
+    padding-top: 2px;
+    transition: 0.2s ease;
+}
+.footer_pintrist{
+    margin-top:8.2vh ;
+    position: absolute;
+    left: 86vw;
+    cursor: pointer;
+}
+.footer_pintrist:hover{
+    padding-top: 2px;
+    transition: 0.2s ease;
+}
+.footer_insta{
+    margin-top:8.2vh ;
+    position: absolute;
+    left: 89vw;
+    cursor: pointer;
+}
+
+.footer_insta:hover{
+    padding-top: 2px;
+    transition: 0.2s ease;
+}
+.footer_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.Our_company{
+    color: gray;
+    position: absolute;
+    margin-left: 9vw;
+    margin-top: 15vh;
+    cursor: pointer;
+    
+}
+
+.how {
+    position: absolute;
+    margin-left: 9vw;
+    margin-top: 25vh;
+    cursor: pointer;
+}
+.how:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.why {
+    position: absolute;
+    margin-left: 9vw;
+    margin-top: 31vh;
+    cursor: pointer;
+}
+.why:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.view{
+    position: absolute;
+    margin-left: 9vw;
+    margin-top: 37vh;
+    cursor: pointer;
+}
+.view:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.reviews{
+    position: absolute;
+    margin-left: 9.1vw;
+    margin-top: 43vh;
+    cursor: pointer;
+}
+.reviews:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.footer_info2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25vw ;
+    margin-top: 15vh ;
+}
+.help{
+    position: absolute;
+    color: gray;
+    cursor: pointer;
+}
+.faq{
+    position: absolute;
+    margin-top: 10vh;
+    cursor: pointer;
+}
+.faq:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.terms{
+    position: absolute;
+    margin-top: 16vh;
+    cursor: pointer;
+}
+.terms:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.privacy{
+    position: absolute;
+    margin-top: 22vh;
+    cursor: pointer;
+}
+.privacy:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.cookies{
+    position: absolute;
+    margin-top: 28vh;
+    cursor: pointer;
+}
+.cookies:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.footer_info3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 38vw;
+}
+.Contact{
+    color: gray;
+    cursor: pointer;
+}
+
+.Sales{
+    position: absolute;
+    margin-top: 10vh;
+    cursor: pointer;
+}
+.Sales:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.Support{
+    position: absolute;
+    margin-top: 15.8vh;
+    cursor: pointer;
+}
+.Support:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.Live_chat{
+    position: absolute;
+    margin-top: 22vh;
+    cursor: pointer;
+}
+.Live_chat:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
